@@ -10,7 +10,7 @@
             Add New Users
         </div>
         <div class="card-body">
-            <form id="create-users-form" action="{{ route('users.store') }}" method="POST" enctype="multipart/form-data">
+            <form id="create-users-form" action="" method="POST" enctype="multipart/form-data">
                 @csrf
                 
             </form>
