@@ -31,6 +31,7 @@ class UserController extends Controller
 
     public function store(Request $request){
         try {
+            dd($request->all());
             $validatedData = $request->validate([]);
             } catch (\Throwable $th) {
             //throw $th;
